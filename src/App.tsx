@@ -23,7 +23,8 @@ function App() {
             <svg className="input-icon left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs/><g id="Iconly/Curved/Unlock" fill="none" fillRule="evenodd" stroke="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"><g id="Unlock" stroke="#000" strokeWidth="1.5" transform="translate(3.5 2)"><path id="Stroke-1" d="M12.776 3.988A4.563 4.563 0 003.85 5.235v2.169"/><path id="Stroke-3" d="M8.41 12.156v2.221"/><path id="Stroke-5" d="M8.41 6.824c-5.745 0-7.66 1.568-7.66 6.271 0 4.704 1.915 6.272 7.66 6.272 5.746 0 7.661-1.568 7.661-6.272 0-4.703-1.915-6.27-7.66-6.27z"/></g></g></svg>
             {/* <object type="image/svg+xml" className="input-icon left" data="/src/assets/unlock.svg"></object> */}
             <input id="password" type="password" placeholder="Contraseña" />
-            <object type="image/svg+xml" className="input-icon right" data="/src/assets/show.svg"></object>
+            <img className="input-icon right" src="./src/assets/show.svg" alt="" />
+            {/* <object type="image/svg+xml" className="input-icon right" data="/src/assets/show.svg"></object> */}
           </div>
           <button className="login-btn">Continuar</button>
           <span className="login-with">Continuar con</span>

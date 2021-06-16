@@ -8,7 +8,7 @@ export default function Background() {
       <div className="ball2"></div>
       <div className="ball3"></div>
       <div className="rectangle"></div>
-      <img src="/src/assets/emojis.png" alt="" className="emojis" />
+      <img src="./src/assets/emojis.png" alt="" className="emojis" />
     </div>
   )
 }
