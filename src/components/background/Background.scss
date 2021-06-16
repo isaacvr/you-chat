@@ -1,0 +1,63 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  z-index: -1;
+}
+
+.rectangle {
+  width: 30vw;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border: 4.4em solid;
+  transform: rotate(35deg) translate(-1.8em, 13.7em);
+  transform-origin: top right;
+  border-image-source: linear-gradient(250deg, #ffffff5e, transparent);
+  border-image-slice: 1;
+}
+
+.emojis {
+  position: absolute;
+  bottom: 7.3em;
+  width: 27%;
+  left: 25.7em;
+}
+
+.ball1, .ball2, .ball3 {
+  height: var(--w);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(12em);
+}
+
+.ball1 {
+  --w: 24em;
+  width: calc(var(--w) * 2);  
+  background-color: #ff006ccc;
+  top: 62%;
+  left: 12%;
+  opacity: 0.25;
+}
+
+.ball2 {
+  --w: 28em;
+  width: var(--w);
+  background-color: var(--button-color);
+  top: 18%;
+  left: 19%;
+  opacity: 0.4;
+}
+
+.ball3 {
+  --w: 20em;
+  width: var(--w);
+  background-color: var(--button-color);
+  top: -10em;
+  left: -10em;
+  opacity: .5;
+  filter: blur(6em);
+}
